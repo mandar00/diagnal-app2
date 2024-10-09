@@ -14,7 +14,7 @@ const MoviePoster = styled.img`
 `;
 
 const MovieTitle = styled.span`
- display: inline-block;
+  display: inline-block;
   white-space: nowrap;
   width: 100%;
   overflow: hidden;
@@ -22,6 +22,10 @@ const MovieTitle = styled.span`
   font-family: ${Theme.typography.fonts.TitilliumWeb};
   font-weight: ${Theme.typography.weights.light};
   color: ${Theme.colors.primary.light};
+  font-size: small;
+  @media only screen and (min-width: 768px) {
+  font-size: x-large;
+  }
 `;
 
 const MovieCard = (props: MovieCardProps) => {
