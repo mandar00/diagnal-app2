@@ -13,7 +13,12 @@ const MoviePoster = styled.img`
   height: 70%;
 `;
 
-const MovieTitle = styled.p`
+const MovieTitle = styled.span`
+ display: inline-block;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-family: ${Theme.typography.fonts.TitilliumWeb};
   font-weight: ${Theme.typography.weights.light};
   color: ${Theme.colors.primary.light};
