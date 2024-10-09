@@ -17,13 +17,13 @@ type MovieListRendererProps = {
 const MovieListWrapper = styled.div`
   width: 100%;
   height: 93%;
-  margin-top: 7vh;
+  padding-top: 9vh;
   overflow-x: hidden;
   overflow-y: auto;
   background-color: ${Theme.colors.primary.dark};
   display: grid;
   align-content: streach;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
   gap: 3vw;
   ::-webkit-scrollbar {
     display: none;
