@@ -1,9 +1,6 @@
 <a id="readme-top"></a>
 
 
-
-
- 
 # DIAGNAL MOVIES LIST APP
 
 ## A movie app with infintie scroll and client side search ablity
@@ -65,9 +62,10 @@ flowchart TB
 
 - [![React][React.js]][React-url]
 - [![Typescript][Typescript]][Typescript-url]
-- [![Typescript][styled-components]][styled-components-url]
-- [![Typescript][redux-toolkit]][redux-toolkit-url]
-- [![React][MUI]][MUI-url]
+- [![styled-components][styled-components]][styled-components-url]
+- [![Mermaid][Mermaid]][Mermaid-url]
+- [![redux-toolkit][redux-toolkit]][redux-toolkit-url]
+- [![MUI][MUI]][MUI-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,4 +116,9 @@ flowchart TB
 [redux-toolkit-url]: https://redux-toolkit.js.org/
 [MUI]: https://img.shields.io/badge/MUI-20232A?style=for-the-badge&logo=mui&logoColor=61DAFB
 [MUI-url]: https://mui.com/
+[Mermaid]: https://img.shields.io/badge/mermaid-20232A?style=for-the-badge&logo=mermaid&logoColor=#FE3672
+[Mermaid-url]:https://mermaid.js.org/
 [App-screenshot]: src/assets/images/Screenshot%20from%202024-10-10%2002-32-34.png
+
+
+#FE3672
