@@ -18,7 +18,7 @@ export const makeRequests = (
     .catch((error) => {
       console.log("error", error);
       //TODO send data to logging service 
-      //TODO handle 403 and 404 errors with a redirect to login and page not found pages respectivly
+      //TODO handle 403 and 404 errors with a redirect to login and page not found pages respectivlyss
       return {
         error,
         response: null,
